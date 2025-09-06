@@ -16,6 +16,21 @@
 			path = MasterListApp;
 			sourceTree = "<group>";
 		};
+		5C615FCE2E6C480D00539155 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C615FD02E6C483C00539155 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5C615FD12E6C484C00539155 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +47,9 @@
 		5C615FB42E6C45F600539155 = {
 			isa = PBXGroup;
 			children = (
+				5C615FD12E6C484C00539155 /* Views */,
+				5C615FD02E6C483C00539155 /* ViewModel */,
+				5C615FCE2E6C480D00539155 /* Model */,
 				5C615FBF2E6C45F600539155 /* MasterListApp */,
 				5C615FBE2E6C45F600539155 /* Products */,
 			);
@@ -62,6 +80,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5C615FBF2E6C45F600539155 /* MasterListApp */,
+				5C615FCE2E6C480D00539155 /* Model */,
+				5C615FD02E6C483C00539155 /* ViewModel */,
+				5C615FD12E6C484C00539155 /* Views */,
 			);
 			name = MasterListApp;
 			packageProductDependencies = (
